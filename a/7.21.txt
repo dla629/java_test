@@ -1,0 +1,53 @@
+local - git
+원격(레파지토리) - github
+
+https://github.com/dla629/java_proj01.git 원격레파지토리 업로드 주소
+
+git = 버전 관리 시스템 파일의 변화를 시간에 따라 기록하여 과거 특정 시점의 버전
+       을 다시 불러올 수 있는 시스템
+
+여러명이 동시에 협업하도록 하는 프로그램
+
+리눅스 명령어
+
+pwd = 현재의 폴더위치
+
+프롬프트 - 계정명@컴퓨터 이름 
+kosmo_@DESKTOP-NL9JJPK MINGW64 ~
+~ : 로그인 한 계정의 홈폴더
+
+cd = 폴더 이동 명령어
+       .. - 상위폴더
+       . - 현재 폴더
+       상대 경로 - 현재 폴더 기준
+       절대 경로 - / 기준
+/  = 최상위 폴더
+
+clear = 화면정리
+
+mkdir = 폴더 생성 명령어
+
+ls (ls -a) = 폴더 안의 파일 목록 열람
+
+ls -a = 숨어있는 폴더 파일까지 열람
+
+echo "# Java Project 1" >> README.md
+   - README.md 파일의 내용을 # Java Project 1
+
+cat = 파일의 내용을 출력
+
+1.git init = 로컬 레파지토를 초기화하는 명령어 (.git 폴더 생성)
+
+2.git config --global user.name "inwoonglim" = 이름 설정,영문이름
+
+3.git config --global user.email "bibianna4@naver.com"
+
+4.git add . = . (현재 작업디렉토리)의 모든 내용을 스테이지 영역에 적용
+
+5.git commit -m " " = 복구 위치 설정 레파지토리 영역에 적용 
+
+6.git remote add orgin https://github.com/dla629/java_proj01.git = 깃 허브의 원격 레파지토리 설정
+
+7.git push --set-upstream origin main = 로컬 레파지토리의 커밋된 데이터를 원격 레파지토리에 업로드 함
+
+https://backlog.com/git-tutorial/kr/intro/intro1_1.html
